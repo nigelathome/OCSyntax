@@ -6,8 +6,8 @@
 //  Copyright © 2017 Apress. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-@interface DemoAppDelegate : UIResponder
+@interface DemoAppDelegate : UIResponder <UIApplicationDelegate>
 
 @end

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916447F91E88E050007826C6 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916447F81E88E050007826C6 /* DemoAppDelegate.m */; };
+		916447FE1E88E0F0007826C6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916447FD1E88E0F0007826C6 /* CoreFoundation.framework */; };
+		916448001E88E102007826C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916447FF1E88E102007826C6 /* Foundation.framework */; };
+		916448021E88E174007826C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916448011E88E174007826C6 /* UIKit.framework */; };
+		9164480B1E88E492007826C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9164480A1E88E492007826C6 /* main.m */; };
+		9164480E1E88E492007826C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9164480D1E88E492007826C6 /* AppDelegate.m */; };
+		916448111E88E492007826C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916448101E88E492007826C6 /* ViewController.m */; };
+		916448141E88E492007826C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916448121E88E492007826C6 /* Main.storyboard */; };
+		916448171E88E492007826C6 /* AemoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 916448151E88E492007826C6 /* AemoTest.xcdatamodeld */; };
+		916448191E88E492007826C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916448181E88E492007826C6 /* Assets.xcassets */; };
+		9164481C1E88E492007826C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9164481A1E88E492007826C6 /* LaunchScreen.storyboard */; };
+		916448211E88E5BB007826C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916448011E88E174007826C6 /* UIKit.framework */; };
+		916448221E88E5C5007826C6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916447FD1E88E0F0007826C6 /* CoreFoundation.framework */; };
+		916448231E88E5C5007826C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916447FF1E88E102007826C6 /* Foundation.framework */; };
 		91DA29D71DBB2C3800EBD49A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DA29D61DBB2C3800EBD49A /* main.m */; };
 		91DA29E31DBB2CFB00EBD49A /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DA29E21DBB2CFB00EBD49A /* A.m */; };
 		91DA29E61DBB2D6000EBD49A /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DA29E51DBB2D6000EBD49A /* B.m */; };
@@ -26,6 +40,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		916447F71E88E050007826C6 /* DemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		916447F81E88E050007826C6 /* DemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		916447FB1E88E0BB007826C6 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		916447FD1E88E0F0007826C6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		916447FF1E88E102007826C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		916448011E88E174007826C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		916448071E88E492007826C6 /* AemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9164480A1E88E492007826C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9164480C1E88E492007826C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9164480D1E88E492007826C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9164480F1E88E492007826C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		916448101E88E492007826C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		916448131E88E492007826C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		916448161E88E492007826C6 /* AemoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AemoTest.xcdatamodel; sourceTree = "<group>"; };
+		916448181E88E492007826C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9164481B1E88E492007826C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9164481D1E88E492007826C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91DA29D31DBB2C3800EBD49A /* ocprogramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocprogramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DA29D61DBB2C3800EBD49A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91DA29E11DBB2CFB00EBD49A /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
@@ -37,21 +68,72 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		916448041E88E492007826C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916448221E88E5C5007826C6 /* CoreFoundation.framework in Frameworks */,
+				916448231E88E5C5007826C6 /* Foundation.framework in Frameworks */,
+				916448211E88E5BB007826C6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91DA29D01DBB2C3800EBD49A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916448021E88E174007826C6 /* UIKit.framework in Frameworks */,
+				916448001E88E102007826C6 /* Foundation.framework in Frameworks */,
+				916447FE1E88E0F0007826C6 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		916447FA1E88E0BB007826C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916448011E88E174007826C6 /* UIKit.framework */,
+				916447FF1E88E102007826C6 /* Foundation.framework */,
+				916447FD1E88E0F0007826C6 /* CoreFoundation.framework */,
+				916447FB1E88E0BB007826C6 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		916448081E88E492007826C6 /* AemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				9164480C1E88E492007826C6 /* AppDelegate.h */,
+				9164480D1E88E492007826C6 /* AppDelegate.m */,
+				9164480F1E88E492007826C6 /* ViewController.h */,
+				916448101E88E492007826C6 /* ViewController.m */,
+				916448121E88E492007826C6 /* Main.storyboard */,
+				916448181E88E492007826C6 /* Assets.xcassets */,
+				9164481A1E88E492007826C6 /* LaunchScreen.storyboard */,
+				9164481D1E88E492007826C6 /* Info.plist */,
+				916448151E88E492007826C6 /* AemoTest.xcdatamodeld */,
+				916448091E88E492007826C6 /* Supporting Files */,
+			);
+			path = AemoTest;
+			sourceTree = "<group>";
+		};
+		916448091E88E492007826C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9164480A1E88E492007826C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		91DA29CA1DBB2C3800EBD49A = {
 			isa = PBXGroup;
 			children = (
 				91DA29D51DBB2C3800EBD49A /* ocprogramming */,
+				916448081E88E492007826C6 /* AemoTest */,
 				91DA29D41DBB2C3800EBD49A /* Products */,
+				916447FA1E88E0BB007826C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				91DA29D31DBB2C3800EBD49A /* ocprogramming */,
+				916448071E88E492007826C6 /* AemoTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +156,8 @@
 				91DA29E51DBB2D6000EBD49A /* B.m */,
 				91DA29E71DBB2DDF00EBD49A /* C.h */,
 				91DA29E81DBB2DDF00EBD49A /* C.m */,
+				916447F71E88E050007826C6 /* DemoAppDelegate.h */,
+				916447F81E88E050007826C6 /* DemoAppDelegate.m */,
 			);
 			path = ocprogramming;
 			sourceTree = "<group>";
@@ -80,6 +165,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		916448061E88E492007826C6 /* AemoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9164481E1E88E492007826C6 /* Build configuration list for PBXNativeTarget "AemoTest" */;
+			buildPhases = (
+				916448031E88E492007826C6 /* Sources */,
+				916448041E88E492007826C6 /* Frameworks */,
+				916448051E88E492007826C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AemoTest;
+			productName = AemoTest;
+			productReference = 916448071E88E492007826C6 /* AemoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		91DA29D21DBB2C3800EBD49A /* ocprogramming */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91DA29DA1DBB2C3800EBD49A /* Build configuration list for PBXNativeTarget "ocprogramming" */;
@@ -106,6 +208,11 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Apress;
 				TargetAttributes = {
+					916448061E88E492007826C6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZYXUDW4PDN;
+						ProvisioningStyle = Automatic;
+					};
 					91DA29D21DBB2C3800EBD49A = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -118,6 +225,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 91DA29CA1DBB2C3800EBD49A;
 			productRefGroup = 91DA29D41DBB2C3800EBD49A /* Products */;
@@ -125,16 +233,42 @@
 			projectRoot = "";
 			targets = (
 				91DA29D21DBB2C3800EBD49A /* ocprogramming */,
+				916448061E88E492007826C6 /* AemoTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		916448051E88E492007826C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9164481C1E88E492007826C6 /* LaunchScreen.storyboard in Resources */,
+				916448191E88E492007826C6 /* Assets.xcassets in Resources */,
+				916448141E88E492007826C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		916448031E88E492007826C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916448111E88E492007826C6 /* ViewController.m in Sources */,
+				9164480E1E88E492007826C6 /* AppDelegate.m in Sources */,
+				9164480B1E88E492007826C6 /* main.m in Sources */,
+				916448171E88E492007826C6 /* AemoTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		91DA29CF1DBB2C3800EBD49A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				91DA29E61DBB2D6000EBD49A /* B.m in Sources */,
+				916447F91E88E050007826C6 /* DemoAppDelegate.m in Sources */,
 				91DA29E31DBB2CFB00EBD49A /* A.m in Sources */,
 				91DA29E91DBB2DDF00EBD49A /* C.m in Sources */,
 				91DA29D71DBB2C3800EBD49A /* main.m in Sources */,
@@ -143,7 +277,57 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		916448121E88E492007826C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916448131E88E492007826C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9164481A1E88E492007826C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9164481B1E88E492007826C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		9164481F1E88E492007826C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZYXUDW4PDN;
+				INFOPLIST_FILE = AemoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvc.AemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		916448201E88E492007826C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZYXUDW4PDN;
+				INFOPLIST_FILE = AemoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvc.AemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		91DA29D81DBB2C3800EBD49A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -184,10 +368,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -225,29 +410,42 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		91DA29DB1DBB2C3800EBD49A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		91DA29DC1DBB2C3800EBD49A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9164481E1E88E492007826C6 /* Build configuration list for PBXNativeTarget "AemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9164481F1E88E492007826C6 /* Debug */,
+				916448201E88E492007826C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		91DA29CE1DBB2C3800EBD49A /* Build configuration list for PBXProject "ocprogramming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -264,8 +462,22 @@
 				91DA29DC1DBB2C3800EBD49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		916448151E88E492007826C6 /* AemoTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				916448161E88E492007826C6 /* AemoTest.xcdatamodel */,
+			);
+			currentVersion = 916448161E88E492007826C6 /* AemoTest.xcdatamodel */;
+			path = AemoTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91DA29CB1DBB2C3800EBD49A /* Project object */;
 }
